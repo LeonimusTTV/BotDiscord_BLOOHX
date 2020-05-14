@@ -1,9 +1,10 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const token = process.env.token;
 
 const fs = require("fs");
 
-client.login("NzA1NDgwMTg4NjI0MTA5NjYw.Xr2kFg.86Q_VK42Cc2jSuV2lqv2FOhzPag");
+client.login(toke);
 
 client.commands = new Discord.Collection();
 
